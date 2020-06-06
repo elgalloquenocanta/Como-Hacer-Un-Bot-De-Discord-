@@ -1,0 +1,9 @@
+function presence() {
+    client.user.setPresence({
+        status: "online",
+        game: {
+            name: "El Gallo Que No Canta",
+            type: "PLAYING"
+        }
+    });
+}
