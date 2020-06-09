@@ -1,0 +1,4 @@
+client.on("guildMemberAdd", miembro => {
+    var Canal = client.channels.find(channel => channel.id === ("ID DEL CANAL"));
+    Canal.send("Bienvenido <@" + miembro.id + "> al servidor,  :). :stuck_out_tongue_winking_eye: ");
+});
